@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Ikonex Academy Student Management System",
   "scripts": {
+    "start": "cd backend && npm start",
+    "dev": "cd backend && npm run dev",
     "install:all": "cd backend && npm install && cd ../frontend && npm install",
     "migrate": "cd backend && npm run migrate",
     "seed": "cd backend && npm run seed",
@@ -10,4 +12,4 @@
     "dev:frontend": "cd frontend && npm run start",
     "setup": "npm run install:all && npm run migrate"
   }
-}
+}   
