@@ -56,7 +56,7 @@ export default function StudentsPage() {
         <div className="flex flex-col sm:flex-row gap-3">
           <div className="relative flex-1">
             <Search size={14} className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" />
-            <input className="input pl-9" placeholder="Search by name or ID..." value={search} onChange={e => setSearch(e.target.value)} />
+            <input className="input pl-9" placeholder="   Search by name or ID..." value={search} onChange={e => setSearch(e.target.value)} />
           </div>
           <select className="input sm:w-48" value={streamFilter} onChange={e => setStreamFilter(e.target.value)}>
             <option value="">All Streams</option>
