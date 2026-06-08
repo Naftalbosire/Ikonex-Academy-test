@@ -1,10 +1,10 @@
-# 🎓 Ikonex Academy — Student Management System
+#  Ikonex Academy — Student Management System
 
 A full-stack Student Management System built with **Node.js**, **React**, and **NeonDB (PostgreSQL)**.
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Node.js 18+ installed
@@ -93,7 +93,7 @@ Then visit **http://localhost:3000** in your browser.
 
 ---
 
-## 📋 Features
+##  Features
 
 | Module | Features |
 |--------|----------|
@@ -107,7 +107,7 @@ Then visit **http://localhost:3000** in your browser.
 
 ---
 
-## 🗂️ Project Structure
+##  Project Structure
 
 ```
 ikonex-sms/
@@ -129,7 +129,7 @@ ikonex-sms/
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -145,7 +145,7 @@ ikonex-sms/
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Frontend:** React 18, Vite, TailwindCSS, TanStack Query, React Router
 - **Backend:** Node.js, Express
@@ -154,7 +154,7 @@ ikonex-sms/
 
 ---
 
-## 📝 Notes
+##  Notes
 
 - Score validation prevents duplicates (same student + subject + year + term)
 - Grades are auto-calculated based on configurable grading scale
