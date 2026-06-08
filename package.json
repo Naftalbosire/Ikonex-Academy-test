@@ -9,5 +9,8 @@
     "dev:backend": "cd backend && npm run dev",
     "dev:frontend": "cd frontend && npm run start",
     "setup": "npm run install:all && npm run migrate"
+  },
+  "dependencies": {
+    "pg": "^8.21.0"
   }
 }
